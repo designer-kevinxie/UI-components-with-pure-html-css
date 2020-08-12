@@ -1,5 +1,40 @@
 # UI-components-with-pure-html-css
-UI-components-with-pure-html-css
-## Nav-bar-01
+
+## 1.Nav-bar-01
 ![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css/blob/master/nav-bar-01/images/preview-default.png)
 ![hover](https://github.com/designer-kevinxie/UI-components-with-pure-html-css/blob/master/nav-bar-01/images/preview-hover.png)
+### note
+#### how to create rounded button with gradient border with css?
+html
+
+    <a class="login" href="#"><span>login</span></a>
+    
+css
+
+      a {
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      color: #BC9CFF;
+      height: 3.5rem;
+      background: linear-gradient(262.73deg, #A49CFF 11.74%, #F78BF9 92.89%);
+      border-radius: 2.2rem;
+      margin-left: 2rem;
+      padding: 2px;/* padding as border */
+      box-sizing: border-box;
+      }
+
+      span{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      background: #fff;
+      border-radius: 2.2rem;
+      padding:1rem 2rem;
+      box-sizing: border-box;
+    }
+    
+  

@@ -4,7 +4,7 @@
 ![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css/blob/master/nav-bar-01/images/preview-default.png)
 ![hover](https://github.com/designer-kevinxie/UI-components-with-pure-html-css/blob/master/nav-bar-01/images/preview-hover.png)
 ### note
-#### how to create rounded button with gradient border with css?
+#### 01.how to create rounded button with gradient border with css?
 html
 
     <a class="login" href="#"><span>login</span></a>
@@ -37,4 +37,16 @@ css
       box-sizing: border-box;
     }
     
-  
+    
+#### 02.font-weight may change the size of element
+     .dropdown:hover .dropdown-button {
+          padding: 2rem 0;
+          color: rgba(31, 32, 65, 0.75);
+          /*font-weight: 700;*/
+    }
+#### 03.add some padding for dropdown-button when hover so that the white space will not break the hover event.
+     .dropdown:hover .dropdown-button {
+          padding: 2rem 0;
+          color: rgba(31, 32, 65, 0.75);
+          /*font-weight: 700;*/
+    }

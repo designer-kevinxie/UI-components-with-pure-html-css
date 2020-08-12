@@ -4,12 +4,12 @@
 ![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css/blob/master/nav-bar-01/images/preview-default.png)
 ![hover](https://github.com/designer-kevinxie/UI-components-with-pure-html-css/blob/master/nav-bar-01/images/preview-hover.png)
 ### note
-#### 01.how to create rounded button with gradient border with css?
-html
+#### 01.how to create rounded button with gradient border by pure css?
+html:add <span> between <a></a>
 
     <a class="login" href="#"><span>login</span></a>
     
-css
+css: padding make <a> bigger than white <span>,border-box can control the size of element with padding or border.
 
       a {
       text-decoration: none;

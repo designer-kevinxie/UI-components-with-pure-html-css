@@ -154,3 +154,7 @@ css :  flexbox align text to center ；icon absolute position
     .button:hover .arrow {
       transform: translateX(1rem);
     }
+#### 03.how to make 1rem=10px?
+css
+
+        html { font-size: 10px; }

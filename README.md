@@ -54,13 +54,13 @@ css: padding make a element bigger than white span element,border-box can contro
 ![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css/blob/master/newsletter%20input%20card/images/preview.png)
 ### note
 #### 01.input border style and placehoder 
-html
+html:
 
         <div class="input-box">
           <p class="">Receive the latest news, products and promotions straight in your inbox!</p>
           <input placeholder="Your email address" type="email" name="email" value="">
         </div>
-css
+css :
 
         /*input box*/
         .input-box p {
@@ -108,14 +108,14 @@ css
         }
         
 #### 02.button with text and icon;layout with flexbox 
-html button element with text and icon
+html : button element with text and icon
 
         <button class="button" name="button">
       <span href="#">subscribe</span>
       <img class="arrow" src="images/arrow.svg" alt="arrow icon">
     </button>
     
-css  flexbox align text to center ；icon absolute position 
+css :  flexbox align text to center ；icon absolute position 
 
     /* button */
     .button {

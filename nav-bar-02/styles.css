@@ -1,0 +1,89 @@
+*,html,body{
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-decoration: none!important;
+  list-style: none!important;
+}
+
+header{
+  background: #fff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  padding: 0 10rem;
+  height: 12rem;
+}
+
+
+.nav_bar{
+height: inherit;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 6rem;
+min-width: 1080px;/*make sure width enough*/
+}
+
+nav ul{
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: inherit;
+}
+
+
+nav li{
+list-style: none;
+height: inherit;
+text-align: center;
+}
+
+.nav_items li a{
+  display: table-cell;/*  */
+  vertical-align: middle;/*  */
+  height: inherit;/*full height for hover effect*/
+  padding: 0 1.6rem;
+}
+
+li a .nav_border_hover{
+border-bottom: 1px solid #363636;
+
+}
+
+.nav_item_text{
+  color: #363636;
+font-size: 1.5rem;
+letter-spacing: 0.07em;
+}
+
+.nav_item_text::after{
+  
+}
+
+
+
+.dropdown{
+
+  position: relative;
+}
+
+
+/*  */
+.nav_dropdown{
+  display: none;
+  position: absolute;
+}
+
+.nav_dropdown_title{
+  display: inline-block;
+}
+
+.nav_dropdown_list{
+  display: inline-block;
+}
+
+.nav_dropdown_list_img img{
+  width: 104px;
+  height: 104px;
+}

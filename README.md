@@ -1,8 +1,8 @@
 # UI-components-with-pure-html-css
 
 ## 1.Nav-bar-01
-![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css/blob/master/nav-bar-01/images/preview-default.png)
-![hover](https://github.com/designer-kevinxie/UI-components-with-pure-html-css/blob/master/nav-bar-01/images/preview-hover.png)
+![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css/blob/master/nav-bar-01/images/nav-bar-01-preview.gif)
+
 ### note
 #### 01.how to create rounded button with gradient border by pure css?
 html:add span element between a element
@@ -51,7 +51,7 @@ css: padding make a element bigger than white span element,border-box can contro
           /*font-weight: 700;*/
     }
 ## 2.newsletter input card
-![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css/blob/master/newsletter%20input%20card/images/preview.png)
+![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css/blob/master/newsletter%20input%20card/images/preview.gif)
 ### note
 #### 01.input border style and placehoder 
 html:
@@ -158,3 +158,12 @@ css :  flexbox align text to center ；icon absolute position
 css
 
         html { font-size: 10px; }
+        
+        
+## 03.Nav-bar-02
+![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css/blob/master/nav-bar-02/images/nav-bar-02-preview.gif)
+### note
+### 01.underline animation
+### 02.layout with flex and table-cell
+### 03.create layers layout with Pseudo-elements ::before and ::after
+### 04.scale animation of image with backround-size

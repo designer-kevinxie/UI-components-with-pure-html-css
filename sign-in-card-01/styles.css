@@ -1,9 +1,22 @@
-*,html{
+*, html {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
-.container{
+
+button {
+  border: none; /*default border is so ugly*/
+  cursor: pointer;
+}
+
+a {
+  cursor: pointer;
+}
+
+
+
+.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,107 +24,196 @@
   height: 100vh;
 }
 
-.sign_in_part{
+.sign_in_part {
   background: #00544F;
   width: 38%;
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
 }
 
-.picture_part{
+.picture_part {
   height: 100vh;
-  width: 62%;
+  width: 62%;/*golden ratio 61.8%*/
   background-image: url("images/picture_right.png");
-  background-size:cover;
+  background-size: cover;/*cover , not 100%*/
 }
 
-.sign_in_card{
- background: rgba(255, 250, 223, 0.9);
- border-radius: 20px;
- padding: 40px 60px;
+.sign_in_card {
+  background: rgba(255, 250, 223, 0.9);
+  border-radius: 20px;
+  padding: 40px 60px;
 }
-.logo{
+
+.logo {
   margin-bottom: 30px;
 }
 
-.sign_in_titlt{
+.sign_in_title {
   margin-bottom: 40px;
 }
-.sign_in_titlt h1{
-font-weight: 700;
-font-size: 66px;
-line-height: 77px;
-color: #00544F;
+
+.sign_in_title h1 {
+  font-weight: 700;
+  font-size: 66px;
+  line-height: 77px;
+  color: #00544F;
 }
 
-.social_buttons{
+.social_buttons {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 34px;
 }
-.google_button{
+
+.social_buttons button {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 16px 42px;
+  padding: 16px;
+  border-radius: 10px;
+  transition: padding 0.3s ease-in-out;
+}
+
+/*if you have no class or dont wann set a class*/
+.social_buttons button:nth-child(1) {
   background: #356CD8;
-border-radius: 10px;
 }
 
-.button_text{
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-color: #FFFFFF;
-}
-.apple_button{
-  padding: 14px;
+.social_buttons button:nth-child(2) {
   background: #2C2C35;
-border-radius: 10px;
-margin-left: 12px;
-display: flex;
-justify-content: space-between;
-align-items: center;
 }
 
-.apple_button span{
+.social_buttons button:nth-child(2) img {
+  position: relative;
+  top: -2px;
+}
+
+
+.short_button {
+  padding: 16px;
+}
+
+.short_button span {
   display: none;
 }
 
-.input_item{
+.long_button {
+  padding: 16px 42px;
+  transition: padding 0.3s ease-in-out;
+  width: 250px;
+  box-sizing: border-box;
+}
+
+.button_text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  margin-left: 2px;
+}
+
+.input_item {
   margin-bottom: 24px;
 }
-.input_label{
-font-weight: 400;
-font-size: 14px;
-line-height: 14px;
-color: rgba(31, 31, 32, 0.5);
-margin-bottom: 8px;
+
+.input_label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: rgba(31, 31, 32, 0.5);
+  margin-bottom: 8px;
 }
 
-.input_frame{
+.input_password {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input_frame {
   background: #FFFFF8;
-/*border: 1px solid #00544F;
-box-sizing: border-box;*/
-border-radius: 10px;
-padding: 14px 10px;
-display: flex;
-justify-content: flex-start;
-align-items: center;
+  border-radius: 10px;
+  padding: 14px 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.input_item input{
+/*for focus event */
+.focus_border {
+  border: 1px solid #00544F;
+  box-sizing: border-box;
+}
+
+.filter_color {
+  filter: invert(22%) sepia(13%) saturate(7278%) hue-rotate(148deg) brightness(94%) contrast(101%);
+}
+
+.input_item input {
   width: 100%;
   margin-left: 8px;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-color: #00544F;
-border: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #00544F;
+  border: none;
+  letter-spacing: 10%;
 }
-input:focus{
-  outline: none;
+
+input:focus {
+  outline: none;/*outline , not border*/
+}
+
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: none;
+  -webkit-text-fill-color: #00544F;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.checkbox input {
+  border: none;
+}
+
+.checkbox small {
+  margin-left: 4px;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 12px;
+  color: rgba(31, 31, 32, 0.5);
+}
+
+a.text_link {
+  color: #00544F;
+  font-weight: 400;
+}
+
+.submit_button {
+  padding: 16px 134px;
+  border: none;
+  background: #00544F;
+  border-radius: 10px;
+  margin-bottom: 76px;
+}
+
+.submit_button:hover {
+  background: #004642;
 }

@@ -1,69 +1,79 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>sign in page 01</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <section class="container">
-      <section class="sign_in_part">
-        <div class="sign_in_card">
-          <div class="logo">
-            <img src="images/logo.svg" alt="logo">
-          </div>
-          <div class="sign_in_titlt">
-            <h1>sign in
-            </h1>
-          </div>
-          <div class="social_buttons">
-            <div class="google_button">
-              <img src="images/icon_google.svg" alt="google button">
-              <span class="button_text">Sign in with Google</span>
-            </div>
-            <div class="apple_button">
-              <img src="images/icon_apple.svg" alt="apple button">
-              <span class="button_text">Sign in with Apple</span>
-            </div>
-          </div>
-          <div class="input_form">
-            <div class="input_item">
-              <div class="input_label">
-              <span>User name or Email Address</span>
-              </div>
-              <div class="input_frame">
-                <img src="images/icon_user.svg" alt="">
-                <input type="email" type="text" name="email" value="">
-              </div>
-            </div>
-            <div class="input_item">
-              <div class="input_label">
-              <span>Password</span>
-              <span class="text_link">Fogot Password?</span>
-              </div>
-              <div class="input_frame">
-                <img src="images/icon_lock_closed.svg" alt="">
-                <input type="password" name="" value="">
-              </div>
-            </div>
 
-            <input type="radio" name="" value=""><small>Agree to our <span class="text_link" >Terms Conditions</span> & <span class="text_link">Pravicy Policy</span>.</small>
-            <div class="button">
-              <button type="submit" name="button"><span>Sign in</span></button>
-            </div>
-          </div>
+<head>
+  <meta charset="utf-8">
+  <title>sign in page 01</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
 
-          <span>Don’t have an account? <span class="text_link">Sign up </span></span>
-
+<body>
+  <section class="container">
+    <section class="sign_in_part">
+      <div class="sign_in_card">
+        <div class="logo">
+          <img src="images/logo.svg" alt="logo">
         </div>
-      </section>
+        <div class="sign_in_title">
+          <h1>sign in
+          </h1>
+        </div>
+        <div class="social_buttons">
+          <button class="google_button long_button">
+            <img src="images/icon_google.svg" alt="google button">
+            <span class="button_text">Sign in with Google</span>
+          </button>
+          <button class="apple_button short_button">
+            <img src="images/icon_apple.svg" alt="apple button">
+            <span class="button_text">Sign in with Apple</span>
+          </button>
+        </div>
+        <form class="input_form">
+          <div class="input_item">
+            <div class="input_label">
+              <label>User name or Email Address</label>
+            </div>
+            <div class="input_frame">
+              <img class="" src="images/icon_user.svg" alt="">
+              <input class="input_info input_info01" type="email" type="text" name="email" value="" autocomplete="off">
+            </div>
+          </div>
+          <div class="input_item">
+            <div class="input_label input_password">
+              <label>Password</label>
+              <a class="text_link">Fogot Password?</a>
+            </div>
+            <div class="input_frame">
+              <img class="" src="images/icon_lock_closed.svg" alt="">
+              <input class="input_info input_info02" type="password" name="" value="">
+            </div>
+          </div>
+          <label for="" class="checkbox">
+            <input type="checkbox" name="" value="">
+            <small>Agree to our <a href="#" class="text_link">Terms Conditions</a> & <a href="#" class="text_link">Pravicy Policy</a>.</small>
+          </label>
 
 
-      <section class="picture_part">
+          <button class="submit_button" type="submit" name="button"><span class="button_text">Sign in</span></button>
 
-      </section>
+        </form>
+
+        <div class="input_label">
+          <label>Don’t have an account? <a href="#" class="text_link">Sign up </a></label>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="picture_part">
 
     </section>
-  </body>
+
+  </section>
+  <script type="text/javascript" src="javascript.js">
+
+  </script>
+</body>
+
 </html>

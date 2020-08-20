@@ -1,10 +1,12 @@
-[TOC]
+
 
 
 # UI-components-with-pure-html-css-js
 
-
-
+* <a hrf="#1nav-bar-01">1.Nav-bar-01<a/>
+* <a hrf="#2newsletter-input-card">2.newsletter-input-card<a/>
+* <a hrf="#3nav-bar-02">3.Nav-bar-02<a/>
+* <a hrf="#4sign-in-card-page">4.sign-in-card-page<a/>    
 ## 1.Nav-bar-01
 ![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css/blob/master/nav-bar-01/images/nav-bar-01-preview.gif)
 
@@ -55,7 +57,7 @@ css: padding make a element bigger than white span element,border-box can contro
           color: rgba(31, 32, 65, 0.75);
           /*font-weight: 700;*/
     }
-## 2.newsletter input card
+## 2.newsletter-input-card
 ![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css/blob/master/newsletter%20input%20card/images/preview.gif)
 ### #-------------------note----------------------------#
 #### 01.input border style and placehoder 
@@ -165,7 +167,7 @@ css
         html { font-size: 10px; }
         
         
-## 03.Nav-bar-02
+## 3.Nav-bar-02
 ![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css/blob/master/nav-bar-02/images/nav-bar-02-preview.gif)
 ### #-------------------note----------------------------#
 #### 01.underline animation
@@ -174,7 +176,7 @@ css
 #### 04.scale animation of image with backround-size
 
 
-## 04.sign-in-card-page
+## 4.sign-in-card-page
 ![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css-js/blob/master/sign-in-card-01/images/preview.gif)
 ### #-------------------note----------------------------#
 #### 01.form with label,input,button html structure

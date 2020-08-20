@@ -3,10 +3,10 @@
 
 # UI-components-with-pure-html-css-js
 
-* <a hrf="#1nav-bar-01">1.Nav-bar-01<a/>
-* <a hrf="#2newsletter-input-card">2.newsletter-input-card<a/>
-* <a hrf="#3nav-bar-02">3.Nav-bar-02<a/>
-* <a hrf="#4sign-in-card-page">4.sign-in-card-page<a/>    
+* [1.Nav-bar-01](#1nav-bar-01)
+* [2.newsletter-input-card](#2newsletter-input-card)
+* [3.Nav-bar-02](#3nav-bar-02)
+* [4.sign-in-card-page](#4sign-in-card-page)
 ## 1.Nav-bar-01
 ![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css/blob/master/nav-bar-01/images/nav-bar-01-preview.gif)
 

@@ -163,16 +163,16 @@ css
 ## 03.Nav-bar-02
 ![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css/blob/master/nav-bar-02/images/nav-bar-02-preview.gif)
 ### note
-### 01.underline animation
-### 02.layout with flex and table-cell
-### 03.create layers layout with Pseudo-elements ::before and ::after
-### 04.scale animation of image with backround-size
+#### 01.underline animation
+#### 02.layout with flex and table-cell
+#### 03.create layers layout with Pseudo-elements ::before and ::after
+#### 04.scale animation of image with backround-size
 
 
 ## 04.sign-in-card-page
 ![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css-js/blob/master/sign-in-card-01/images/preview.gif)
 ### note
-### 01.form with label,input,button html structure
+#### 01.form with label,input,button html structure
         
      <form>
       <label for="fname">First name:</label><br>
@@ -182,4 +182,4 @@ css
       <button class="submit_button" type="submit" name="button"><span class="button_text">Sign in</span></button>
     </form>
         
-### 02.img element or background-image ?
+#### 02.img element or background-image ?

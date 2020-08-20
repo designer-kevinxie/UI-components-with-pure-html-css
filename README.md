@@ -3,7 +3,7 @@
 ## 1.Nav-bar-01
 ![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css/blob/master/nav-bar-01/images/nav-bar-01-preview.gif)
 
-### note
+### #-------------------note----------------------------#
 #### 01.how to create rounded button with gradient border by pure css?
 html:add span element between a element
 
@@ -52,7 +52,7 @@ css: padding make a element bigger than white span element,border-box can contro
     }
 ## 2.newsletter input card
 ![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css/blob/master/newsletter%20input%20card/images/preview.gif)
-### note
+### #-------------------note----------------------------#
 #### 01.input border style and placehoder 
 html:
 
@@ -162,7 +162,7 @@ css
         
 ## 03.Nav-bar-02
 ![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css/blob/master/nav-bar-02/images/nav-bar-02-preview.gif)
-### note
+### #-------------------note----------------------------#
 #### 01.underline animation
 #### 02.layout with flex and table-cell
 #### 03.create layers layout with Pseudo-elements ::before and ::after
@@ -171,7 +171,7 @@ css
 
 ## 04.sign-in-card-page
 ![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css-js/blob/master/sign-in-card-01/images/preview.gif)
-### note
+### #-------------------note----------------------------#
 #### 01.form with label,input,button html structure
         
      <form>

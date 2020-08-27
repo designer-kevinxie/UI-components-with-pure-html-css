@@ -65,6 +65,7 @@ h3 {
   align-items: center;
   transform: rotate(-45deg);
   transition: transform .3s ease-in-out;
+
 }
 
 .paragraph {

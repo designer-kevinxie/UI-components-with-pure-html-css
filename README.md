@@ -210,3 +210,20 @@ css
     });
 
     }
+
+#### 02. circle to rectangle animation with css
+    .card-item::before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      background: #1F182F;
+      position: absolute;
+      top: 0;
+      left: 0;
+      clip-path: circle(5% at 84% 27%);
+      transition: clip-path .5s ease-in-out;
+    }
+
+    .card-hover::before {
+      clip-path: circle(100%);
+    }

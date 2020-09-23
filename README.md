@@ -8,7 +8,7 @@
 * [3.Nav-bar-02](#3nav-bar-02)
 * [4.Sign-in-card-page](#4sign-in-card-page)
 ## 1.Nav-bar-01
-![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css/blob/master/nav-bar-01/images/nav-bar-01-preview.gif)
+![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css/blob/master/1.nav-bar-01/images/nav-bar-01-preview.gif)
 
 ### #-------------------note----------------------------#
 #### 01.how to create rounded button with gradient border by pure css?
@@ -58,7 +58,7 @@ css: padding make a element bigger than white span element,border-box can contro
           /*font-weight: 700;*/
     }
 ## 2.Newsletter-input-card
-![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css/blob/master/newsletter%20input%20card/images/preview.gif)
+![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css/blob/master/2.newsletter%20input%20card/images/preview.gif)
 ### #-------------------note----------------------------#
 #### 01.input border style and placehoder 
 html:
@@ -168,7 +168,7 @@ css
         
         
 ## 3.Nav-bar-02
-![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css/blob/master/nav-bar-02/images/nav-bar-02-preview.gif)
+![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css/blob/master/3.nav-bar-02/images/nav-bar-02-preview.gif)
 ### #-------------------note----------------------------#
 #### 01.underline animation
 #### 02.layout with flex and table-cell
@@ -177,7 +177,7 @@ css
 
 
 ## 4.Sign-in-card-page
-![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css-js/blob/master/sign-in-card-01/images/preview.gif)
+![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css-js/blob/master/4.sign-in-card-01/images/preview.gif)
 ### #-------------------note----------------------------#
 #### 01.form with label,input,button html structure
         
@@ -190,3 +190,23 @@ css
     </form>
         
 #### 02.img element or background-image ?
+
+
+##5.content-card-01:animation
+![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css-js/blob/master/5.content-card-01/images/preview.gif)
+### #-------------------note----------------------------#
+#### 01.add animation to every card with for loop & addEventListener function 
+    var cards = document.querySelectorAll(".card-item");
+    
+    for(var i = 0 ;i<cards.length;i++){
+      console.log(cards[i]);
+
+       cards[i].addEventListener("mouseenter",function(){
+      this.classList.toggle("card-hover");
+    });
+
+    cards[i].addEventListener("mouseleave",function(){
+    this.classList.toggle("card-hover");
+    });
+
+    }

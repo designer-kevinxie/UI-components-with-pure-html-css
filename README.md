@@ -192,7 +192,7 @@ css
 #### 02.img element or background-image ?
 
 
-##5.content-card-01:animation
+## 5.content-card-01:animation
 ![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css-js/blob/master/5.content-card-01/images/preview.gif)
 ### #-------------------note----------------------------#
 #### 01.add animation to every card with for loop & addEventListener function 

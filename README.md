@@ -10,7 +10,7 @@
 * [5.content-card-01:animation](#5content-card-01animation)
 
 ## 0.Design file
-https://www.figma.com/file/9ZXdkPBquoloWAQ47ahWwn/UI-components?node-id=0%3A1
+[figma](https://www.figma.com/file/9ZXdkPBquoloWAQ47ahWwn/UI-components?node-id=0%3A1)
 ## 1.Nav-bar-01
 ![preview](https://github.com/designer-kevinxie/UI-components-with-pure-html-css/blob/master/1.nav-bar-01/images/nav-bar-01-preview.gif)
 
